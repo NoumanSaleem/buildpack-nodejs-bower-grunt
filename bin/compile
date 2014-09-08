@@ -151,7 +151,7 @@ echo "export PATH=\"\$HOME/vendor/node/bin:\$HOME/bin:\$HOME/node_modules/.bin:\
     # make sure that bower is installed locally
     npm install bower
     echo "-----> Found bower.json, running grunt heroku:$NODE_ENV task"
-    $build_dir/node_modules/.bin/bower install
+    $build_dir/node_modules/.bin/bower install --allow-root
   else
     echo "-----> No bower.json found"
   fi
