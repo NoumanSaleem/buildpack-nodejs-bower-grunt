@@ -1,6 +1,8 @@
 Heroku buildpack: Node.js with grunt support
 ============================================
 
+Copy of https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt & https://github.com/mirego/heroku-buildpack-bower
+
 Supported Grunt versions: 0.3 and 0.4.
 See the Grunt [migration guide](https://github.com/gruntjs/grunt/wiki/Upgrading-from-0.3-to-0.4) if you are upgrading from 0.3.
 
